@@ -1,6 +1,6 @@
 
-import Banner from './components/Banner/Banner';
-import TextField from './components/TextField/TextField';
+import Banner from './components/Banner';
+import TextField from './components/TextField';
 
 function App() {
   return (
@@ -8,7 +8,10 @@ function App() {
       <Banner/>
 
       <div className=''>
-        <TextField/>
+        <TextField label="Nome" placeholder="Digite o nome do vinho"/>
+        <TextField label="Ano" placeholder="Digite o ano"/>
+        <TextField label="Foto" placeholder="Insira o link de uma foto do vinho"/>
+     
       </div>
     </div>
   );
